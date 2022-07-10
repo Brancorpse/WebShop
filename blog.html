@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial Ecommerce</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" />
+    <! Importando arquivo css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <! todo script javascript deve vir após p conteúdo html -->
+
+    <! Criando cabeçalho -->
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+        <! Links do cabeçalho -->
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Loja</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="about.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li id="lg-bag"><a href="carrinho.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>                  
+            </ul>
+        </div>
+        <div id="mobile">            
+            <a href="carrinho.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+
+    </section>
+
+    <! Criando página Blog -->
+    <section id="page-header" class="blog-header">
+        
+        <h2>#leiamais</h2>
+        
+        <p>Leia todos os estudos de casos sobre os nossos produtos</p>        
+
+    </section>  
+
+    <! Criando sessão blog -->
+    <section id="blog">
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="img/blog/b1.jpg" alt="">
+            </div>
+            <div class="blog-details">
+                <h4>O Zíper da Algodão de Jersey</h4>
+                <p>Pontapé inicial do livro de Braid Godard. Godard...</p>
+                <a href="#">Continue lendo</a>
+            </div>
+            <h1>13/01</h1>
+        </div> 
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="img/blog/b2.jpg" alt="">
+            </div>
+            <div class="blog-details">
+                <h4>Como criar um estilo próprio</h4>
+                <p>Quais passos você deve seguir. 1-...</p>
+                <a href="#">Continue lendo</a>
+            </div>
+            <h1>13/01</h1>
+        </div>  
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="img/blog/b3.jpg" alt="">
+            </div>
+            <div class="blog-details">
+                <h4>Itens básicos para uma skatista</h4>
+                <p>O que você precisa ter no seu armário para começar a andar de skate. Siga...</p>
+                <a href="#">Continue lendo</a>
+            </div>
+            <h1>13/01</h1>
+        </div>  
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="img/blog/b4.jpg" alt="">
+            </div>
+            <div class="blog-details">
+                <h4>Itens para sair</h4>
+                <p>O que você precisa para ter um bom para sair...</p>
+                <a href="#">Continue lendo</a>
+            </div>
+            <h1>13/01</h1>
+        </div>  
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="img/blog/b6.jpg" alt="">
+            </div>
+            <div class="blog-details">
+                <h4>AW20 Trend para Moda Masculina</h4>
+                <p>Trend fundamental para acompanhar as tendências...</p>
+                <a href="#">Continue lendo</a>
+            </div>
+            <h1>13/01</h1>
+        </div>         
+    </section>
+    
+    <! Criando Paginação -->
+    <section id ="pagination" class="section-p1">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#"><i class="fal fa-long-arrow-alt-right"></i></a>
+
+    </section>    
+
+    <! Inserindo área de Newsletter -->
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Assine Nossa Newsletter</h4>
+            <p>insira o email para ficar atualizado de nossas novidades e <span>ofertas.</span></p>            
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Seu email">
+            <button class="normal">Assine</button>
+
+        </div>
+
+    </section>
+
+    <! Inserindo Rodapé -->
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="">
+            <h4>Contato</h4>
+            <p><strong>Endereço: 562 Wellington Road, Street 32, San Francisco</strong></p>
+            <p><strong>Telefone:</strong> +01 222 365 /(+91) 01 2345 6789</p>
+            <p><strong>Horário</strong> 10:00 - 18:00, Seg-Sab</p>
+            <div class="follow">
+                <h4>Siga-nos</h4> 
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram-f"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>    
+        <div class="col">
+            <h4>Sobre</h4>
+            <a href="#">Sobre nós</a>
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Termos e Condições</a>
+            <a href="#">Contate-nos</a>
+        </div>
+        <div class="col">
+            <h4>Minha Conta</h4>
+            <a href="#">Sign In</a>
+            <a href="#">Ver Carrinho</a>
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Minha Lista de Desejos</a>
+            <a href="#">Ajuda</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>App no Google Play ou Apple Store</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+                <p>Meios de Pagamento Seguro</p>
+                <img src="img/pay/pay.png" alt="">
+            </div>
+        </div>
+        <div class="copyright">
+            <p>2022, Tech etc - HTML CSS ECommerce Template</p>
+        </div>
+
+    </footer>    
+
+    <! abaixo, link com o arquivo js para execução do script na página -->
+    <script src="script.js"></script>    
+</body>
+
+</html>
+ 

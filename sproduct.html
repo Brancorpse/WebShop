@@ -36,6 +36,124 @@
 
     </section>
 
+    <! Criando página de produto único -->
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="img/products/f1.jpg" width="100%" id="MainImg" alt="">
+        
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="img/products/f1.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/products/f2.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/products/f3.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/products/f4.jpg" width="100%" class="small-img" alt="">
+                </div> 
+
+            </div>  
+        </div>
+        <div class="single-pro-details">
+            <h6>Home / Camiseta</h6>
+            <h4>Estampa Flores</h4>
+            <h2>$78.00</h2>
+            <select>
+                <option>Selecione o Tamanho</option>
+                <option>Plus Size</option>
+                <option>G</option>
+                <option>M</option>
+                <option>P</option>
+            </select>
+            <input type="number" value="1">
+            <button class="normal">Adicionar ao Carrinho</button>
+            <h4>Detalhes do Produto</h4>
+            <span>Camiseta masculina Florida, apresentando o que há de melhor para este verão</span>
+        </div>      
+
+        <div></div>
+        
+    </section>
+
+    <section id="product2" class="section-p1">
+        <h2>Produtos Relacionados</h2>
+        <p>Novos modelos da Coleção Verão</p>
+        <div class="pro-conteiner">
+            <div class="pro">
+                <img src="img/products/n1.jpg" alt="">
+                <div class="des">
+                    <span>Dorinhos</span>
+                    <h5>Pijama Azul Claro</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        
+                    </div>
+                    <h4>$45</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/n2.jpg" alt="">
+                <div class="des">
+                    <span>Dorinhos</span>
+                    <h5>Pijama Xadrez</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        
+                    </div>
+                    <h4>$55</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/n3.jpg" alt="">
+                <div class="des">
+                    <span>Dorinhos</span>
+                    <h5>Pijama Branco</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        
+                    </div>
+                    <h4>$40</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/n4.jpg" alt="">
+                <div class="des">
+                    <span>Straight Fit</span>
+                    <h5>Camisa manga cuta G-STA</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        
+                    </div>
+                    <h4>$60</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+
+        </div>
+    </section>
+
     <! Inserindo área de Newsletter -->
     <section id="newsletter" class="section-p1 section-m1">
         <div class="newstext">
@@ -48,21 +166,6 @@
 
         </div>
 
-    </section>
-
-    <! Criando página de produto único -->
-    <section id="prodetails" class="section-p1">
-        <div class="single-pro-image">
-            <img src="img/products/f1.jpg" width="100%" id="MainImag" alt="">
-        </div>>
-        <div class="small-img-group">
-            <div clss="small-img-col">
-                <img src="img/products/f2.jpg" width="100%" class="small-img" alt="";
-            </div>
-
-        </div>
-
-        </div>
     </section>
 
     <! Inserindo Rodapé -->
@@ -114,7 +217,26 @@
             <p>2022, Tech etc - HTML CSS ECommerce Template</p>
         </div>
 
-    </footer>    
+    </footer> 
+    <script>
+        var MainIMG = document.getElementById("MainImg");
+        var smallimg = document.getElementsByClassName("small-img");
+
+        smallimg[0].onclick = function() {
+            MainIMG.src = smallimg[0].src;            
+        }
+        smallimg[1].onclick = function() {
+            MainIMG.src = smallimg[1].src;            
+        }
+        smallimg[2].onclick = function() {
+            MainIMG.src = smallimg[2].src;            
+        }
+        smallimg[3].onclick = function() {
+            MainIMG.src = smallimg[3].src;            
+        }
+
+
+    </script>   
 
     <! abaixo, link com o arquivo js para execução do script na página -->
     <script src="script.js"></script>    
