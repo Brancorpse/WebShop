@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial Ecommerce</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" />
+    <! Importando arquivo css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <! todo script javascript deve vir após p conteúdo html -->
+
+    <! Criando cabeçalho -->
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+        <! Links do cabeçalho -->
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Loja</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li id="lg-bag"><a class = "active" href="carrinho.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>                  
+            </ul>
+        </div>
+        <div id="mobile">            
+            <a href="carrinho.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+
+    </section> 
+  
+    <! Criando corpo da página Carrinho  -->
+
+    <section id="page-header" class="about-header">
+
+
+        
+        <h2>#VamosConversar</h2>
+        
+        <p>Deixe uma mensagem. Nós adoraríamos te ouvir</p>        
+
+    </section> 
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Produto</td>
+                    <td>Preço</td>
+                    <td>Quantidade</td>
+                    <td>Subtotal</td>
+                </tr>         
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td><i class="fa-times-circle"></i><a href="#"></a></td>        
+                    <td><img src="img/products/f1.jpg" alt=""></td>
+                    <td>Camisa Florida Masculina</td>
+                    <td>$118.19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.19</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-times-circle"></i><a href="#"></a></td>        
+                    <td><img src="img/products/f2.jpg" alt=""></td>
+                    <td>Camisa Florida Masculina Clara</td>
+                    <td>$118.19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$70.00</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-times-circle"></i><a href="#"></a></td>        
+                    <td><img src="img/products/f3.jpg" alt=""></td>
+                    <td>Camisa Florida Rosas</td>
+                    <td>$118.19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$140.10</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-times-circle"></i><a href="#"></a></td>        
+                    <td><img src="img/products/f4.jpg" alt=""></td>
+                    <td>Camisa Florida Branca</td>
+                    <td>$118.19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.19</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Aplicar Cupom</h3>
+            <div>
+                <input type="text" placeholder="Insira o seu Cupom">
+                <button class="normal">Aplicar</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Total do Carrinho</h3>
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>$ 334</td>
+                </tr>
+                <tr>
+                    <td>Envio</td>
+                    <td>Grátis</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$ 334</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Finalizar Compra</button>
+        </div>
+    </section >
+
+ 
+    <! Inserindo Rodapé -->
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="">
+            <h4>Contato</h4>
+            <p><strong>Endereço: 562 Wellington Road, Street 32, San Francisco</strong></p>
+            <p><strong>Telefone:</strong> +01 222 365 /(+91) 01 2345 6789</p>
+            <p><strong>Horário</strong> 10:00 - 18:00, Seg-Sab</p>
+            <div class="follow">
+                <h4>Siga-nos</h4> 
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram-f"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>    
+        <div class="col">
+            <h4>Sobre</h4>
+            <a href="#">Sobre nós</a>
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Termos e Condições</a>
+            <a href="#">Contate-nos</a>
+        </div>
+        <div class="col">
+            <h4>Minha Conta</h4>
+            <a href="#">Sign In</a>
+            <a href="#">Ver Carrinho</a>
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Minha Lista de Desejos</a>
+            <a href="#">Ajuda</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>App no Google Play ou Apple Store</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+                <p>Meios de Pagamento Seguro</p>
+                <img src="img/pay/pay.png" alt="">
+            </div>
+        </div>
+        <div class="copyright">
+            <p>2022, Tech etc - HTML CSS ECommerce Template</p>
+        </div>
+
+    </footer>    
+
+    <! abaixo, link com o arquivo js para execução do script na página -->
+    <script src="script.js"></script>    
+</body>
+
+</html>
+ 
