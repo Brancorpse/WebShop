@@ -1,5 +1,7 @@
-<body>
 
-<h6>My first HTML/CSS/Javascript FrontEnd Shop</h6>
 
-</body>
+<h1>Webshop</h1>
+
+<p>This project shows my first project using HTML, CSS and Javascript. I hope you enjoy it!!!</p>
+
+
